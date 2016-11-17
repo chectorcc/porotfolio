@@ -1,0 +1,4 @@
+remote:! No default language could be detected for this app. remote HINT: 
+This occurs when Heroku cannot detect the buildpack to use for this 
+application automatically remote 
+See https://devcenter.heroku.com/articles/buildp acks

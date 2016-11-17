@@ -1,0 +1,93 @@
+Windows PowerShell
+Copyright (C) 2012 Microsoft Corporation. All rights reserved.
+
+C:\Users\Hector\Documents\GitHub> git config --global user.nema "chectorcc"
+C:\Users\Hector\Documents\GitHub> git config --global user.emil "chinohec@gmail.
+com"
+C:\Users\Hector\Documents\GitHub> git status
+fatal: Not a git repository (or any of the parent directories): .git
+C:\Users\Hector\Documents\GitHub> heroku login
+Enter your Heroku credentials.
+Email: chinohec@gmail.com
+Password (typing will be hidden):
+Logged in as chinohec@gmail.com
+C:\Users\Hector\Documents\GitHub> git init
+Initialized empty Git repository in C:/Users/Hector/Documents/GitHub/.git/
+C:\Users\Hector\Documents\GitHub [master +2 ~0 -0 !]>  heroku git:remote -a hect
+orportfolio
+set git remote heroku to https://git.heroku.com/hectorportfolio.git
+C:\Users\Hector\Documents\GitHub [master +2 ~0 -0 !]> git add .
+C:\Users\Hector\Documents\GitHub [master +2 ~0 -0 | +0 ~1 -0 !]> git commit -am
+"initial commit"
+[master (root-commit) 668e9ea] initial commit
+ 2 files changed, 18 insertions(+)
+ create mode 160000 HPortfolio2016
+ create mode 100644 isjumahe/.gitattributes
+C:\Users\Hector\Documents\GitHub [master +0 ~1 -0 !]> git push heroku master
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 456 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote:  !     No default language could be detected for this app.
+remote:                         HINT: This occurs when Heroku cannot detect the
+buildpack to use for this application automatically.
+remote:                         See https://devcenter.heroku.com/articles/buildp
+acks
+remote:
+remote:  !     Push failed
+remote: Verifying deploy....
+remote:
+remote: !       Push rejected to hectorportfolio.
+remote:
+To https://git.heroku.com/hectorportfolio.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/hectorportfolio.git'
+C:\Users\Hector\Documents\GitHub [master +0 ~1 -0 !]> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   HPortfolio2016 (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+C:\Users\Hector\Documents\GitHub [master +0 ~1 -0 !]> heroku logout
+Local credentials cleared.
+C:\Users\Hector\Documents\GitHub [master +0 ~1 -0 !]> cd user
+cd : Cannot find path 'C:\Users\Hector\Documents\GitHub\user' because it does
+not exist.
+At line:1 char:1
++ cd user
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Hector\Documents\GitHu
+   b\user:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLo
+   cationCommand
+
+C:\Users\Hector\Documents\GitHub [master +0 ~1 -0 !]> cd ..
+C:\Users\Hector\Documents> cd ..
+C:\Users\Hector> cd document
+cd : Cannot find path 'C:\Users\Hector\document' because it does not exist.
+At line:1 char:1
++ cd document
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Hector\document:String
+   ) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLo
+   cationCommand
+
+C:\Users\Hector> cd documents
+C:\Users\Hector\documents> cd github
+C:\Users\Hector\documents\github [master +0 ~1 -0 !]> git -help
+Unknown option: -help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+C:\Users\Hector\documents\github [master +0 ~1 -0 !]>
