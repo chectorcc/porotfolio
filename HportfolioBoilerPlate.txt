@@ -8,7 +8,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css">
 		<script src="https//code.jquery.com/jquery-2.1.1.js"></script>
-
+		
 
 		<title>HPortfolio</title>
 
@@ -28,9 +28,10 @@
 			}
 
 			.llogomain {
+				/*padding: 178px 60px 50px 60px;*/
 				margin: 117px 0px 0px 342px;
 				width: 1036px;
-			}
+			}	
 
 			.logo{
 				color:#fdffff;
@@ -89,14 +90,14 @@
 				float: left;
 				width: 25%;
 				padding: -53px 0px 0px 200px;
-
+							
 			}
 
 			.right-side {
 				display: inline-block;
 				float: right;
 				width: 48%;
-
+			
 			}
 
 			.canvas-section {
@@ -132,18 +133,20 @@
 			}
 
 			.footer{
-				background-color:#00ffc7;
-				width: 1154px;
-				margin: -171px 200px 0px 370px;
+				background-color:yellow;
+				width: 100%;
+				height:200px;
+				margin-bottom: 20px;
 				color: green;
 			}
 
 			.footerbottom{
-				background-color: purple;
-				height: 100px;
-				margin: 179px auto;
-				width: 100%;
+				background-color: #00ffc7;
+				padding: 178px 60px 50px 60px;
+				margin: 172px auto;
+				width: 1036px;
 			}
+
 
 			.footerleftdiv {
 				float:left;
@@ -153,29 +156,8 @@
 
 			.footerrightdiv {
 				float:right;
-				width: 197px;
-				margin: -105px 168px 0px 200px;
-			}
-
-			.circle {
-				width:100px;
-				height:100px;
-				border-radius:50px;
-				font-size:20px;
-				line-height:100px;
-				text-align:center;
-				background:#000;
-			}
-
-			.leftcircle {
-				width:100px;
-				height:100px;
-				border-radius:50px;
-				font-size:20px;
-				line-height:100px;
-				text-align:center;
-				background:#00FFFF;
-
+				width: 250px;
+				margin: 0px 200px 0px 200px;
 			}
 
 			li:hover {
@@ -202,6 +184,7 @@
 				clear:both;
 			}
 
+
 		</style>
 
 	</head>
@@ -213,7 +196,7 @@
 		//where all the Jquery will run.
 		$()
 
-	}); //End of function
+	}); //End of function 
 
 	</Script><!--End of JQuery code-->
 
@@ -230,8 +213,8 @@
 					<li><a href="#Portfolio">Portfolio</a></li>
 					<li><a href="#About">About</a></li>
 				</ul><!-- end of mavegation -->
-			</div><!--End of llogormain-->
-		</div><!-- end of class-wrap-->
+			</div><!--End of llogormain-->	
+		</div><!-- end of class-wrap-->	
 
 	<div class="clear-headersection"></div>
 
@@ -264,7 +247,7 @@
 					<h3>Coming Soon</h3>
 					<img class="img-left" src="Green-Trees-Highway-Landscapes.jpg" width="450" height="300">
 				</section><!--end of rightside-class -->
-
+		
 			 <div class="clear-middle-section"></div>
 
 				<section class="bottom-canvas">
@@ -274,10 +257,10 @@
 			         <script>
 			        	var mainCanvas = document.querySelector("#mainCanvas");
 						var mainContext = mainCanvas.getContext("2d");
-
+						 
 						var canvasWidth = mainCanvas.width;
 						var canvasHeight = mainCanvas.height;
-
+						 
 						function drawCircle() {
 							mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
 
@@ -295,11 +278,11 @@
 							//color in the circle
 							mainContext.fillStyle = "#eeff00";
 							mainContext.fill();
-
+						 
 						}
 						drawCircle();
 
-			        </script>
+			        </script>     
 				</section><!-- end of bottom-canvas -->
 		</div><!--end of middle-section-->
 
@@ -316,34 +299,28 @@
 		    <label>First name: <input type="text"></label><br>
 		    <label>Last name: <input type="text"></label><br>
 		    <label>E-mail: <input type="email"></label><br>
-		    <textarea
+		    <textarea 
 		    	name="textarea" rows="10" cols="50">Write something here</textarea>
 			<input type="submit" value="Submit">
 		</form>
 	</div>
-
+		
 		<div class="clear-ff"></div>
 
 	<footer class="footer">
 
+		<h3>Coming Soon</h3>
+
 		<div class="footerleftdiv">
-			<h1>Hacia HDesigner</h1>
-			<div class="leftcircle">
-				<img class="Tech" src="Tech.png" alt= "picture" >
-			</div>
+			<p>some text</p>
 		</div>
-
 		<div class="footerrightdiv">
-				<h1>Hacia Hector</h1>
-				<div class="circle">
-				<img src="HaciaHIcon.png" alt= "picture" >
-			</div><!--End of the circle-class-->
-	 </div><!--End of the footerrightdiv-->
-
+			<p>some text</p>
+		</div>
 		<div class="footerbottom">
 			<p>this part contains All right Reserved</p>
 		</div>
-	</footer><!-- end of bottom-footer-class-->
+	</footer><!-- end of bottom-class-->
 
 </body>
 </html>
