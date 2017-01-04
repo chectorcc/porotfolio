@@ -40,11 +40,11 @@
 					<li><a href="#About">About</a></li>
 				</ul><!-- end of mavegation -->
 			</div><!--End of llogormain-->
-		</div><!-- end of class-wrap-->
+		</div><!-- end of wrap-class-->
 
 	<div class="clear-headersection"></div>
 
-	<div id="About">
+	<div id="About" class="container">
 		<div class="text">
 			<h2>Hola a todos este es una practica de website development Holla a todos este es una practica de website development
 				Hola a todos este es una practica de website development Holla a todos este es una practica de website development
@@ -63,7 +63,7 @@
 	<!-- <div class="clear-top-sectionandmiddle"></div> -->
 
 	<div id="Portfolio">
-		<div class="middle-section">
+		<div class="middle-section  container">
 				<section class="leftside">
 					<h3>Coming Soon</h3>
 				 	<img class="img-left" src="OverMountain.jpg" width="450" height="300">
@@ -116,42 +116,79 @@
 
 	<div class="clear-theForm"></div>
 
-	<div id="Contact Me">
-
-		<form class="contact-form" action="getform.php" method="get">
-
-			<h1>Contact Me</h1>
-
-		    <label>First name: <input type="text"></label><br>
-		    <label>Last name: <input type="text"></label><br>
-		    <label>E-mail: <input type="email"></label><br>
-		    <textarea
-		    	name="textarea" rows="10" cols="50">Write something here</textarea>
-			<input type="submit" value="Submit">
+	<div id="Contact Me container">
+		<!-- Begin MailChimp Signup Form -->
+ <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+<div id="mc_embed_signup">
+		<form action="//hectorcladeron.us14.list-manage.com/subscribe/post?u=740640a0a995759a25b283f4b&amp;id=63e338da60" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+							<h2>Subscribe to our mailing list</h2>
+							<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+								<div class="mc-field-group">
+										<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+										</label>
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-FNAME">First Name </label>
+									<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group">
+											<label for="mce-LNAME">Last Name </label>
+										<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_740640a0a995759a25b283f4b_63e338da60" tabindex="-1" value=""></div>
+				    		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						</div>
 		</form>
+</div>
+			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<!--End mc_embed_signup-->
 	</div>
 
 		<div class="clear-ff"></div>
 
-	<footer class="footer">
+<div class="footer">
+		<footer class="footer-top">
+				<div class="footerleft_div">
+						<h1>HaciaHector</h1>
+						<div class="left-circle">
+							<img class="Tech" src="Tech.png" alt= "picture" >
+						</div>
+						<div class="right-circle">
+									<img src="HaciaHIcon.png" alt= "picture" >
+						</div><!--End of the circle-class-->
+				</div><!--end of footerleft_div-->
 
-		<div class="footerleftdiv">
-			<h1>Hacia HDesigner</h1>
-			<div class="leftcircle">
-				<img class="Tech" src="Tech.png" alt= "picture" >
-			</div>
-		</div>
+				<div class="clear-ff"></div>
 
-		<div class="footerrightdiv">
-				<h1>Hacia Hector</h1>
-				<div class="circle">
-				<img src="HaciaHIcon.png" alt= "picture" >
-			</div><!--End of the circle-class-->
-	 </div><!--End of the footerrightdiv-->
+				<div class="footer_rightdiv media-icon">
+						<h1>HaciaHector</h1>
+						<span>
+							<a class="media-icon " href="http://facebook.com"></a>
+						</span>
+						<span>
+							<a class="media-icon " href="http://linked.com"></a>
+						</span>
+						<span>
+							<a class="media-icon " href="http://github.com"></a>
+						</span>
 
-		<div class="footerbottom">
-			<p>this part contains All right Reserved</p>
-		</div>
+			 </div><!--End of the footerrightdiv-->
+
+			 <div class="clear-ff"></div>
+
+				<div class="footer-bottom">
+					<p>this part contains All right Reserved</p>
+				</div>
+</div><!--end of footer-->
+
+				<div class="clear-ff"></div>
+
 	</footer><!-- end of bottom-footer-class-->
 
 </body>

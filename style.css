@@ -4,6 +4,9 @@
     background-color: #C6C9CC;
   }
 
+  .container {
+    width: 1036px;
+  }
   .wrap {
     width: 100%;
     height: 170px;
@@ -15,7 +18,7 @@
 
   .llogomain {
     margin: 117px 0px 0px 342px;
-    width: 1036px;
+    /*width: 1036px;*/
   }
 
   .logo{
@@ -44,7 +47,7 @@
     background-color: #00ffc7;
     padding: 178px 60px 50px 60px;
     margin: 172px auto;
-    width: 1036px;
+    /*width: 1036px;*/
   }
 
   .text {
@@ -67,7 +70,7 @@
     background-color: #00ffc7;
     padding: 178px 60px 50px 60px;
     margin: -170px auto;
-    width: 1036px;
+    /*width: 1036px;*/
   }
 
   .leftside {
@@ -108,42 +111,66 @@
 
   .contact-form {
     background-color: #00ffc7;
-    padding: 178px 60px 50px 60px;
+    padding: 108px 60px 0px 60px;
     margin: 172px auto;
-    width: 1036px;
   }
+
+	#mc_embed_signup{
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+   }
 
   h1 {
     text-align: center;
   }
 
-  .footer{
+  .footer {
+    margin-top: 0px;
+    color: black;
+    width: 100%;
+    text-align: center;
     background-color:#00ffc7;
-    width: 1154px;
-    margin: -171px 200px 0px 370px;
+  }
+
+  .footer-top{
+    /*background-color:#00ffc7;*/
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
     color: green;
   }
 
-  .footerbottom{
+  .footer-bottom{
     background-color: purple;
-    height: 100px;
-    margin: 179px auto;
+    text-align:center;
+    height: 75px;
+    margin-top: 200px;
+    margin-bottom: 0px;
     width: 100%;
   }
 
-  .footerleftdiv {
+  .footerleft_div {
     float:left;
     width: 250px;
     margin: 0px 200px 0px 200px;
   }
 
-  .footerrightdiv {
+  .media-icon {
+  background: url(32pixel-icon-2.png);
+  padding:62px;
+  width:25px;
+  height:25px;
+  display:inline-block;
+}
+
+  .footer_rightdiv {
     float:right;
     width: 197px;
-    margin: -105px 168px 0px 200px;
+    margin: 105px 168px 0px 200px;
   }
 
-  .circle {
+  .right-circle {
     width:100px;
     height:100px;
     border-radius:50px;
@@ -153,7 +180,7 @@
     background:#000;
   }
 
-  .leftcircle {
+  .left-circle {
     width:100px;
     height:100px;
     border-radius:50px;
