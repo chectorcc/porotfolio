@@ -16,16 +16,15 @@
     background-color: purple;
   }
 
-  .llogomain {
-    margin: 117px 0px 0px 342px;
-    /*width: 1036px;*/
+  .logomain {
+    margin: 112px 204px 0px 342px;
   }
 
   .logo{
     color:#fdffff;
     margin: 0px 0px 0px -120px;
     float: left;
-    width: 10px;
+    width: 50px;
   }
 
   #mainNav li {
@@ -45,9 +44,9 @@
 
   #About {
     background-color: #00ffc7;
-    padding: 178px 60px 50px 60px;
-    margin: 172px auto;
-    /*width: 1036px;*/
+    padding: 180px 60px 150px 60px;
+    margin: 172px 300px 0px 200px;
+
   }
 
   .text {
@@ -68,9 +67,8 @@
 
   .middle-section {
     background-color: #00ffc7;
-    padding: 178px 60px 50px 60px;
-    margin: -170px auto;
-    /*width: 1036px;*/
+    padding: 180px 60px 150px 60px;
+    margin: 2px 300px 0px 200px;
   }
 
   .leftside {
@@ -109,14 +107,16 @@
     /*border-color: green;*/
   }
 
-  .contact-form {
+  #Contact_Me {
     background-color: #00ffc7;
-    padding: 108px 60px 0px 60px;
-    margin: 172px auto;
+    padding: 180px 60px 150px 60px;
+    margin: 2px 300px 0px 200px;
   }
 
 	#mc_embed_signup{
-    background:#fff;
+    background-color: #00ffc7;
+    padding: 180px 60px 150px 60px;
+    margin: 2px 212px 0px 199px;
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
    }
@@ -125,19 +125,20 @@
     text-align: center;
   }
 
-  .footer {
-    margin-top: 0px;
+  /*.footer {
+    margin-top: 0px/
     color: black;
     width: 100%;
     text-align: center;
     background-color:#00ffc7;
-  }
+  }*/
 
   .footer-top{
-    /*background-color:#00ffc7;*/
+    background-color: #00ffc7;
+    height: 300px;
     width: 100%;
     text-align: center;
-    margin-top: 0px;
+    margin: 2px 0px 0px 0px;
     color: green;
   }
 
@@ -145,8 +146,8 @@
     background-color: purple;
     text-align:center;
     height: 75px;
-    margin-top: 200px;
-    margin-bottom: 0px;
+    /*margin-top: 200px;*/
+    /*margin-bottom: 0px;*/
     width: 100%;
   }
 
