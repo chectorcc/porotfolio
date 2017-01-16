@@ -101,10 +101,7 @@
     margin: -80px 200px 0px 130px;
     width: 700px;
     height: 500px;
-    /*color: green;*/
-    /*border-style: solid;*/
-    /*border-width: 2px;*/
-    /*border-color: green;*/
+
   }
 
   #Contact_Me {
@@ -162,9 +159,11 @@
   width:25px;
   height:25px;
   display:inline-block;
-
 }
 
+ .facebook {
+   background-position:  0 0;
+}
   .footer_rightdiv {
     float:right;
     width: 197px;
