@@ -122,13 +122,13 @@
     text-align: center;
   }
 
-  /*.footer {
+  footer-container {
     margin-top: 0px/
     color: black;
     width: 100%;
     text-align: center;
     background-color:#00ffc7;
-  }*/
+  }
 
   .footer-top{
     background-color: #00ffc7;
@@ -143,8 +143,8 @@
     background-color: purple;
     text-align:center;
     height: 75px;
-    /*margin-top: 200px;*/
-    /*margin-bottom: 0px;*/
+    margin-top: 200px;*/
+    margin-bottom: 0px;*/
     width: 100%;
   }
 
