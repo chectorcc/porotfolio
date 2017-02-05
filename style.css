@@ -144,9 +144,8 @@
   .footer-bottom{
     background-color: #FFEADD;
     text-align:center;
-    height: 75px;
-    margin-top: 200px;*/
-    margin-bottom: 0px;*/
+    padding: 25px 0;
+    /*height: 75px;*/
     width: 100%;
   }
 
