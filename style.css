@@ -43,7 +43,7 @@
   }
 
   #About {
-    background-color: #00ffc7;
+    background-color: #aaa;
     padding: 180px 60px 150px 60px;
     margin: 172px 300px 0px 200px;
 
@@ -66,7 +66,7 @@
   }
 
   .middle-section {
-    background-color: #00ffc7;
+    background-color: #aaa;
     padding: 180px 60px 150px 60px;
     margin: 2px 300px 0px 200px;
   }
@@ -105,13 +105,13 @@
   }
 
   #Contact_Me {
-    background-color: #00ffc7;
+    background-color: #aaa;
     padding: 180px 60px 150px 60px;
     margin: 2px 300px 0px 200px;
   }
 
 	#mc_embed_signup{
-    background-color: #00ffc7;
+    background-color: #aaa;
     padding: 201px 60px 220px 120px;
     margin: 2px 212px 0px 199px;
     clear:left;
@@ -122,17 +122,18 @@
     text-align: center;
   }
 
-  .footer-container {
+  #footer-container {
      width: 100%;
      height: 170px;
+     padding:
     margin-top: 0px/
     color: black;
     text-align: center;
-    background-color:#00ffc7;
+    background-color:#aaa;
   }
 
   .footer-top{
-    background-color: #00ffc7;
+    background-color: #aaa;
     height: 300px;
     width: 100%;
     text-align: center;
