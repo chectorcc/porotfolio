@@ -21,13 +21,16 @@
   }
 
   .logo{
-    color:#fdffff;
+    color: rgba(255, 255, 255, 0.8);
+ 	  background-color: rgba(142, 213, 87, 0.3);
     margin: 0px 0px 0px -120px;
     float: left;
     width: 50px;
   }
 
-  #mainNav li {
+  #mainNav li:hover {
+    color: rgba(255, 255, 255, 1);
+  	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
     height: 11px;
     margin: 10px;
