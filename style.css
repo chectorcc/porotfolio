@@ -21,7 +21,7 @@
   }
 
   .logo{
-    margin: 0px 0px 0px -120px;
+    margin: 114px 0px 0px 206px;
     float: left;
     width: 50px;
   }
@@ -31,12 +31,13 @@
   	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
     height: 11px;
-    margin: 10px;
-    padding: 11px;
+    margin: 118px 10px 0 0;
+    padding: 15px;
     display: inline;
     float:right;
     width: 100px;
     text-align: center;
+    text-decoration: none;
     border-left: 2px solid #1f5065;
     border-right: 2px solid #1f5065;
     border-top: 2px solid #74a3b7;
