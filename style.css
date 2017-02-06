@@ -2,6 +2,7 @@
 
   body {
     background-color: #C6C9CC;
+    color: #4d4d4d;
   }
 
   .container {
@@ -14,16 +15,16 @@
     top: 0px;
     left: 0px;
     border: 2px;
-    background-color: #FFEADD;
+    background-color: #929599;
+    boirder-color: #592059;
   }
 
   .logomain {
     margin: 112px 204px 0px 342px;
+    border-color: black;
   }
 
   .logo{
-    color: rgba(255, 255, 255, 0.8);
- 	  background-color: rgba(142, 213, 87, 0.6);
     margin: 0px 0px 0px -120px;
     float: left;
     width: 50px;
