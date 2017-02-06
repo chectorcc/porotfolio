@@ -28,7 +28,7 @@
     width: 50px;
   }
 
-  #mainNav: hover li {
+  #mainNav li {
     color: rgba(255, 255, 255, 1);
   	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
