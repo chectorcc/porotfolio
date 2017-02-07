@@ -111,11 +111,13 @@
   }
 
   #Contact_Me {
-
+    background-color: #aaa;
+    padding: 180px 60px 150px 60px;
+    margin: 2px 300px 0px 200px;
   }
 
 	#mc_embed_signup{
-    background-color: #929599;
+
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
    }
