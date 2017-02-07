@@ -26,12 +26,12 @@
     width: 50px;
   }
 
-  #mainNav li{
+  #mainNav{
     color: rgba(255, 255, 255, 1);
   	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
     height: 11px;
-    margin: 118px 10px 0 0;
+    margin: 106px 10px 0 0;
     padding: 15px;
     display: inline;
     float:right;
