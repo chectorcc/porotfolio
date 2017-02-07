@@ -31,12 +31,12 @@
     margin: 114px 209px 0 0;
   }
 
-  ul li {
+   li {
     color: rgba(255, 255, 255, 1);
   	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
     height: 11px;
-    margin: 106px 10px 0 0;
+    margin: 10px ;
     padding: 15px;
     display: inline;
     width: 100px;
