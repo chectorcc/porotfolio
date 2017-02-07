@@ -27,6 +27,10 @@
   }
 
   #mainNav{
+    float:right;
+  }
+
+  li {
     color: rgba(255, 255, 255, 1);
   	background-color: rgba(142, 213, 87, 0.6);
     list-style: none;
@@ -34,7 +38,6 @@
     margin: 106px 10px 0 0;
     padding: 15px;
     display: inline;
-    float:right;
     width: 100px;
     text-align: center;
     text-decoration: none;
