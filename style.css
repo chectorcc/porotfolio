@@ -31,14 +31,17 @@
     margin: 114px 209px 0 0;
   }
 
+  a {
+    list-style: none;
+  }
+
    li {
     color: rgba(255, 255, 255, 1);
   	background-color: rgba(142, 213, 87, 0.6);
-    list-style: none;
     height: 11px;
     margin: 10px ;
     padding: 15px;
-    display: inline;
+    display: inline-block;
     width: 100px;
     text-align: center;
     text-decoration: none;
@@ -81,7 +84,7 @@
     display: inline-block;
     float: left;
     width: 25%;
-    padding: -53px 0px 0px 200px;
+    /*padding: -53px 0px 0px 200px;*/
 
   }
 
