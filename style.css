@@ -112,6 +112,12 @@
 
   }
 
+  #ContactMe {
+    background-color: #aaa;
+    padding: 180px 60px 150px 60px;
+    margin: 2px 300px 0px 200px;
+  }
+
  form {
   /* Just to center the form on the page */
   margin: 0 auto;
