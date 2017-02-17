@@ -5,6 +5,8 @@
     color: #4d4d4d;
   }
 
+
+
   .container {
     width: 1036px;
     margin: 0 auto;
@@ -21,14 +23,14 @@
   }
 
   .logo{
-    margin: 114px 0px 0px 206px;
+    margin: 114px 0px 0px 0px;
     float: left;
     width: 50px;
   }
 
   #mainNav{
     float:right;
-    margin: 114px 209px 0 0;
+    margin: 114px 0px 0 0;
   }
 
   a {
@@ -53,14 +55,12 @@
 
   #About {
     background-color: #aaa;
-    padding: 180px 60px 150px 60px;
-    margin: 172px 300px 0px 200px;
-
+    padding: 250px 60px 150px 60px;
   }
 
   .text {
     width: 685px;
-    height: 450px;
+    height: 475px;
     color: white;
     float: left;
   }
@@ -74,10 +74,9 @@
     float: right;
   }
 
-  .middle-section {
+  #Portfolio {
     background-color: #aaa;
     padding: 180px 60px 150px 60px;
-    margin: 2px 300px 0px 200px;
   }
 
   .leftside {
@@ -115,35 +114,53 @@
   #ContactMe {
     background-color: #aaa;
     padding: 180px 60px 150px 60px;
-    margin: 2px 300px -20px 200px;
+    margin-top:2px;
   }
 
  form {
   /* Just to center the form on the page */
   margin: 0 auto;
-  width: 400px;
+  width: 830px;
   /* To see the outline of the form */
-  padding: 1em;
+  padding: 50px 10px;
   border: 1px solid #CCC;
   border-radius: 1em;
 }
 form div + div {
   margin-top: 1em;
 }
+
+.user-info {
+  margin: 0 0 30px 0;
+}
+
+
+input {
+  height: 40px;
+}
+
 label {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
   width: 90px;
   text-align: right;
 }
+
 input, textarea {
   /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
   font: 1em sans-serif;
   /* To give the same size to all text fields */
-  width: 300px;
+  width: 700px;
   box-sizing: border-box; /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
 }
+
+
+
+.input-label {
+  margin: 0 10px 0 0;
+}
+
 input:focus, textarea:focus {
   /* To give a little highlight on active elements */
   border-color: #000;
@@ -152,7 +169,7 @@ textarea {
   /* To properly align multiline text fields with their labels */
   vertical-align: top;
   /* To give enough room to type some text */
-  height: 5em;
+  height: 100px;
 }
 .button {
   /* To position the buttons to the same position of the text fields */
@@ -162,6 +179,7 @@ textarea {
 button {
   /* This extra margin represent roughly the same space as the space between the labels and their text fields */
   margin-left: .5em;
+  padding: 15px;
 }
 
   h1 {
@@ -208,8 +226,14 @@ button {
 }
 
  .facebook {
-   background-position:  0 0;
+   background-position:  0 -50px;
 }
+
+.linkedin {
+  background-position: -200px -50px;
+}
+
+
   .footer_rightdiv {
     float:right;
     width: 307px;
