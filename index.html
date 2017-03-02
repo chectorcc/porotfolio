@@ -10,22 +10,13 @@
 		<link href="http://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
 		<!-- <link rel="stylesheet" type="text/css"> -->
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https//code.jquery.com/jquery-2.1.1.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
 		<title>index.html</title>
 
 	</head>
 <body>
-
-			<script type="text/javascript">
-
-			 		$("document").ready(function() {
-				//where all the Jquery will run.
-			 		$('main-Nav').scrollTo();
-			 		});  //End of function
-
-			</script>
 
 		<div class="wrap">
 			<div class="container">
@@ -34,9 +25,9 @@
 					</div>
 
 				<ul id="mainNav">
-					<li><a href="#About">About</a></li>
-					<li><a href="#Portfolio">Portfolio</a></li>
-					<li><a href="#ContactMe">Contact Me</a></li>
+					<li><a id="About-link" href="#About">About</a></li>
+					<li><a id="portfolio-link" href="#Portfolio">Portfolio</a></li>
+					<li><a id="Contact_Me-link" href="#ContactMe">Contact Me</a></li>
 				</ul><!-- end of mavegation -->
 			</div>
 		</div><!-- end of wrap-container class-->
@@ -153,14 +144,12 @@
 
 						<div class="footer_rightdiv">
 								<h1>HaciaHector</h1>
+
 								<span>
-									<a class="media-icon facebook " href="http://facebook.com"></a>
+									<a class="media-icon  linked-in" href="https://www.linkedin.com/in/hector-calderon-91b21155/"></a>
 								</span>
 								<span>
-									<a class="media-icon  linked-in" href="http://linked.com"></a>
-								</span>
-								<span>
-									<a class="media-icon github" href="http://github.com"></a>
+									<a class="media-icon github" href="https://github.com/chectorcc"></a>
 								</span>
 						</div><!--End of the footerrightdiv-->
 
@@ -172,5 +161,17 @@
 
 				<div class="clear"></div>
 		</div> <!--end of footer-container-->
+
+		<script type="text/javascript">
+
+				$("document").ready(function() {
+			//where all the Jquery will run and this code will be executed when page is load
+			$( "#portfolio-link, #About-link, #Contact_Me-link" ).click(function() {
+				alert( "Handler for .click() called." );
+			});
+
+
+				});  //End of function
+		</script>
 	</body>
 </html>
