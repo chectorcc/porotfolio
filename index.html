@@ -18,16 +18,16 @@
 	</head>
 <body>
 
-		<div class="wrap">
+		<div id="top-section" class="wrap">
 			<div class="container">
 					<div class="logo">
 							<img src="HaciaHIcon.png" alt= "picture" >
 					</div>
 
 				<ul id="mainNav">
-					<li><a id="About-link" href="#About">About</a></li>
-					<li><a id="portfolio-link" href="#Portfolio">Portfolio</a></li>
-					<li><a id="Contact_Me-link" href="#ContactMe">Contact Me</a></li>
+					<li id="About-link"><a>About</a></li>
+					<li id="Portfolio-link"><a>Portfolio</a></li>
+					<li id="ContactMe-link"><a>Contact Me</a></li>
 				</ul><!-- end of mavegation -->
 			</div>
 		</div><!-- end of wrap-container class-->
@@ -114,15 +114,15 @@
 	<div class="clear"></div>
 
 	<div id="ContactMe" class="container">
-			<form action="/my-handling-form-page" method="post">
+			<form action="mailto:chinohec@gmail.com" method="post" enctype="text/plain">
 					<div class="user-info">
 						<label class="input-label" for="name">Name:</label> <input type="text" id="name" name="user_name">
 					</div>
 					<div class="user-info">
-						<label class="input-label" for="mail">E-mail:</label> <input type="email" id="mail" name="user_mail">
+						<label class="input-label" for="mail">E-mail:</label> <input type="email" id="mail" name="mail">
 					</div>
 					<div class="user-info">
-						<label class="input-label" for="msg">Message:</label> <textarea id="msg" name="user_message"></textarea>
+						<label class="input-label" for="msg">Message:</label> <textarea id="msg" name="comment"></textarea>
 					</div>
 					<div class="button">
 						<button type="submit">Send your message</button>
@@ -156,7 +156,7 @@
 				</div> <!--end of footer-top-->
 
 				<div class="footer-bottom">
-					<p>this part contains All right Reserved</p>
+					<large>JHI © Copyright 2017, Hector All Rights Reserved </large>
 				</div><!--end of footer-bottom class-->
 
 				<div class="clear"></div>
@@ -165,10 +165,35 @@
 		<script type="text/javascript">
 
 				$("document").ready(function() {
-			//where all the Jquery will run and this code will be executed when page is load
-			$( "#portfolio-link, #About-link, #Contact_Me-link" ).click(function() {
-				alert( "Handler for .click() called." );
-			});
+						//where all the Jquery will run and this code will be executed when page is load
+						$( "#Portfolio-link" ).click(function() {
+							$("body").animate ({
+								scrollTop: $("#Portfolio").offset().top - $("#top-section").height()},
+							1000);
+						});
+
+						$( "#About-link" ).click(function() {
+							$("body").animate ({
+								scrollTop: $("#About").offset().top - $("#top-section").height()},
+							1000);
+
+							// make the About-link dark green
+							// make all other links light green
+							$("#About-link").css("background-color", "rgba(142, 213, 87, 0.6)");
+							$( "#About-link" ).css("background-color", "green");
+
+						});
+
+						$( "#ContactMe-link").click(function() {
+							$("body").animate ({
+								scrollTop: $("#ContactMe").offset().top - $("#top-section").height()},
+							1000);
+
+							// make the ContactMe-link dark green
+							// make all other links light green
+						});
+
+
 
 
 				});  //End of function

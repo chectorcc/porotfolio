@@ -13,7 +13,7 @@
   }
   .wrap {
     width: 100%;
-    height: 170px;
+    height: 100px;
     position: fixed;
     top: 0;
     left: 0px;
@@ -23,14 +23,14 @@
   }
 
   .logo{
-    margin: 132px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     float: left;
     width: 50px;
   }
 
   #mainNav{
     float:right;
-    margin: 114px 0px 0 0;
+    margin: 20px 0px 0 0;
   }
 
   a {
@@ -265,7 +265,7 @@ button {
   }*/
 
   li:hover {
-    background-color: white;
+    background-color: green;
   }
 
 </style>
