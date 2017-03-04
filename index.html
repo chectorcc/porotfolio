@@ -176,11 +176,12 @@
 							$("body").animate ({
 								scrollTop: $("#About").offset().top - $("#top-section").height()},
 							1000);
-
+							$(".example").hover(function() {
 							// make the About-link dark green
 							// make all other links light green
 							$("#About-link").css("background-color", "rgba(142, 213, 87, 0.6)");
 							$( "#About-link" ).css("background-color", "green");
+							});
 
 						});
 
