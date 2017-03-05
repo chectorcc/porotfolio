@@ -243,27 +243,6 @@ button {
     margin: 10px 200px 20px 200px;
   }
 
-  /*.right-circle {
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    text-align:center;
-    background:#000;
-  }*/
-
-  /*.left-circle {
-    width:100px;
-    height:100px;
-    border-radius:50px;
-    font-size:20px;
-    line-height:100px;
-    text-align:center;
-    background:#00FFFF;
-
-  }*/
-
   li:hover {
     background-color: green;
   }

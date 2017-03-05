@@ -166,23 +166,22 @@
 
 				$("document").ready(function() {
 						//where all the Jquery will run and this code will be executed when page is load
-						$( "#Portfolio-link" ).click(function() {
-							$("body").animate ({
-								scrollTop: $("#Portfolio").offset().top - $("#top-section").height()},
-							1000);
-						});
-
 						$( "#About-link" ).click(function() {
 							$("body").animate ({
 								scrollTop: $("#About").offset().top - $("#top-section").height()},
 							1000);
-							$(".example").hover(function() {
+							$("#About").hover(function() {
 							// make the About-link dark green
 							// make all other links light green
 							$("#About-link").css("background-color", "rgba(142, 213, 87, 0.6)");
 							$( "#About-link" ).css("background-color", "green");
 							});
+						});
 
+						$( "#Portfolio-link" ).click(function() {
+							$("body").animate ({
+								scrollTop: $("#Portfolio").offset().top - $("#top-section").height()},
+							1000);
 						});
 
 						$( "#ContactMe-link").click(function() {
