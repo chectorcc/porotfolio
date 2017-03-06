@@ -5,8 +5,6 @@
     color: #4d4d4d;
   }
 
-
-
   .container {
     width: 1036px;
     margin: 0 auto;
@@ -126,60 +124,63 @@
   padding: 50px 10px;
   border: 1px solid #CCC;
   border-radius: 1em;
-}
-form div + div {
+ }
+
+ form div + div {
   margin-top: 1em;
-}
+ }
 
-.user-info {
-  margin: 0 0 30px 0;
-}
+  .user-info {
+    margin: 0 0 30px 0;
+  }
 
 
-input {
-  height: 40px;
-}
+  input {
+   height: 40px;
+  }
 
-label {
-  /* To make sure that all labels have the same size and are properly aligned */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
+  label {
+   /* To make sure that all labels have the same size and are properly aligned */
+   display: inline-block;
+   width: 90px;
+   text-align: right;
+  }
 
-input, textarea {
-  /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
-  font: 1em sans-serif;
-  /* To give the same size to all text fields */
-  width: 700px;
-  box-sizing: border-box; /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-}
+  input, textarea {
+   /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+   font: 1em sans-serif;
+   /* To give the same size to all text fields */
+   width: 700px;
+   box-sizing: border-box; /* To harmonize the look & feel of text field border */
+   border: 1px solid #999;
+  }
 
-.input-label {
-  margin: 0 10px 0 0;
-}
+  .input-label {
+    margin: 0 10px 0 0;
+  }
 
-input:focus, textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: #000;
-}
-textarea {
-  /* To properly align multiline text fields with their labels */
-  vertical-align: top;
-  /* To give enough room to type some text */
-  height: 100px;
-}
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px;
-  /* same size as the label elements */
-}
-button {
-  /* This extra margin represent roughly the same space as the space between the labels and their text fields */
-  margin-left: .5em;
-  padding: 15px;
-}
+  input:focus, textarea:focus {
+   /* To give a little highlight on active elements */
+   border-color: #000;
+  }
+
+  textarea {
+   /* To properly align multiline text fields with their labels */
+   vertical-align: top;
+   /* To give enough room to type some text */
+   height: 100px;
+  }
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px;
+    /* same size as the label elements */
+  }
+
+  button {
+   /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+   margin-left: .5em;
+   padding: 15px;
+  }
 
   h1 {
     text-align: center;
@@ -196,10 +197,9 @@ button {
 
   .footer-top{
     background-color: #aaa;
-    height: 300px;
+    height: 180px;
     text-align: center;
     margin-top: 2px;
-    /*margin-bottom: 50px;*/
     color: green;
   }
 
@@ -207,40 +207,39 @@ button {
     background-color: #aaa;
     text-align:center;
     padding: 25px 0;
-   margin-top: 2px;
+    margin-top: 2px;
     width: 100%;
   }
 
   .footerleft_div {
     float:left;
-    width: 250px;
-    margin: 10px 200px 20px 200px;
+    width: 50%;
+    margin-top:6px;
   }
 
   .media-icon {
-  background: url(Socimedia32pixel-icons-2.png);
-  width:50px;
-  height:50px;
-  display:inline-block;
-}
+    background: url(Socimedia32pixel-icons-2.png);
+    width:50px;
+    height:50px;
+    display:inline-block;
+  }
 
- .facebook {
-   background-position:  384px -120px;
-}
+  .facebook {
+    background-position:  384px -120px;
+  }
 
-.linked-in {
-  background-position: -388px -120px;
-}
+  .linked-in {
+    background-position: -388px -120px;
+  }
 
-.github {
-  background-position: -447px -120px;
-}
-
+  .github {
+    background-position: -447px -120px;
+  }
 
   .footer_rightdiv {
     float:right;
-    width: 307px;
-    margin: 10px 200px 20px 200px;
+    width: 50%;
+    margin-top:4px;
   }
 
   li:hover {
