@@ -170,12 +170,6 @@
 							$("body").animate ({
 								scrollTop: $("#About").offset().top - $("#top-section").height()},
 							1000);
-							$("#About").hover(function() {
-							// make the About-link dark green
-							// make all other links light green
-							$("#About-link").css("background-color", "rgba(142, 213, 87, 0.6)");
-							$( "#About-link" ).css("background-color", "green");
-							});
 						});
 
 						$( "#Portfolio-link" ).click(function() {
@@ -195,8 +189,20 @@
 
 
 
+						$("#mainNav li").hover(
+							function() {  //handlerIn
+								// make the About-link dark green
+								// make all other links light green
+								$(this).css("background-color", "green");
+							},
+							function() { //handlerOut
+								$(this).css("background-color", "rgba(142, 213, 87, 0.6)");
+							}
+						);
 
 				});  //End of function
+
+
 		</script>
 	</body>
 </html>
