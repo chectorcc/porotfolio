@@ -164,18 +164,32 @@
 
 		<script type="text/javascript">
 
+				var lastButtonClicked = null;
+
 				$("document").ready(function() {
 						//where all the Jquery will run and this code will be executed when page is load
 						$( "#About-link" ).click(function() {
 							$("body").animate ({
 								scrollTop: $("#About").offset().top - $("#top-section").height()},
 							1000);
+
+							$("#mainNav li").css("background-color", "rgba(142, 213, 87, 0.6)");
+
+							$(this).css("background-color", "green");
+
+							lastButtonClicked = $("#About-link");
 						});
 
 						$( "#Portfolio-link" ).click(function() {
 							$("body").animate ({
 								scrollTop: $("#Portfolio").offset().top - $("#top-section").height()},
 							1000);
+
+							$("#mainNav li").css("background-color", "rgba(142, 213, 87, 0.6)");
+
+							$(this).css("background-color", "green");
+
+							lastButtonClicked = $("#Portfolio-link");
 						});
 
 						$( "#ContactMe-link").click(function() {
@@ -183,11 +197,19 @@
 								scrollTop: $("#ContactMe").offset().top - $("#top-section").height()},
 							1000);
 
-							// make the ContactMe-link dark green
-							// make all other links light green
-						});
+							$("#About").click(function() {
+								if ($("#About-link").css("background-color", "rgba(142, 213, 87, 0.6)"))
+ 								return $("#About-link").css("background-color", "green");
+ 							 });
 
+							 $("#mainNav li").css("background-color", "rgba(142, 213, 87, 0.6)");
 
+							 $(this).css("background-color", "green");
+
+							 lastButtonClicked = $("#ContactMe-link");
+							// make the ContactMe-link dark green.
+							// make all other links light green.
+						}); // end of ContactMe-link click function.
 
 						$("#mainNav li").hover(
 							function() {  //handlerIn
@@ -196,11 +218,14 @@
 								$(this).css("background-color", "green");
 							},
 							function() { //handlerOut
-								$(this).css("background-color", "rgba(142, 213, 87, 0.6)");
+								if(lastButtonClicked != null && $(this).attr('id') == lastButtonClicked.attr('id')) {
+
+								}else {
+									$(this).css("background-color", "rgba(142, 213, 87, 0.6)");
+								}
 							}
 						);
-
-				});  //End of function
+				});  //End of Ready function
 
 
 		</script>
