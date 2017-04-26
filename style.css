@@ -52,14 +52,14 @@
   }
 
   #About {
-    background-color: #aaa;
+    background-color: #505050;
     padding: 250px 60px 150px 60px;
   }
 
   .text {
     width: 685px;
     height: 475px;
-    color: white;
+    color: #fff;
     float: left;
   }
 
@@ -73,7 +73,8 @@
   }
 
   #Portfolio {
-    background-color: #aaa;
+    background-color: #505050;
+    color: #fff;
     padding: 180px 60px 150px 60px;
     margin-top: 2px;
   }
@@ -111,12 +112,13 @@
   }
 
   #ContactMe {
-    background-color: #aaa;
+    background-color: #505050;
     padding: 180px 60px 150px 60px;
     margin-top:2px;
   }
 
  form {
+   color: #fff;
   /* Just to center the form on the page */
   margin: 0 auto;
   width: 830px;
@@ -196,7 +198,7 @@
   }
 
   .footer-top{
-    background-color: #aaa;
+    background-color: #505050;
     height: 180px;
     text-align: center;
     margin-top: 2px;
@@ -204,11 +206,12 @@
   }
 
   .footer-bottom{
-    background-color: #aaa;
+    background-color: #1c1c1c;
     text-align:center;
     padding: 25px 0;
     margin-top: 2px;
     width: 100%;
+    color: #fff;
   }
 
   .footerleft_div {
