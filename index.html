@@ -29,7 +29,7 @@
 					<li id="Portfolio-link"><a>Portfolio</a></li>
 					<li id="ContactMe-link"><a>Contact Me</a></li>
 				</ul><!-- end of mavegation -->
-			</div>
+			</div><!--end of class container-->
 		</div><!-- end of wrap-container class-->
 
 	<div class="clear"></div>
@@ -180,7 +180,7 @@
 							lastButtonClicked = $("#About-link");
 						});
 
-						$( "#Portfolio-link" ).click(function() {
+						$( "#Portfolio-link" ).onclick(function() {
 							$("body").animate ({
 								scrollTop: $("#Portfolio").offset().top - $("#top-section").height()},
 							1000);
